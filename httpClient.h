@@ -7,3 +7,5 @@ std::future<std::string> GetFacultyByIdAsync(int id);
 std::future<std::string> PostFacultyAsync(const std::string& name);
 std::future<std::string> PatchFacultyAsync(int id, const std::string& newName);
 std::future<std::string> DeleteFacultyAsync(int id);
+std::future<std::string> GetAllScoresAsync();
+std::future<std::string> PostScoreAsync(int score);
